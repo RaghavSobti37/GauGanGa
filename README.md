@@ -1,12 +1,9 @@
-# Gow ganganga
+# Dattdham + Gau GanGa
 
-Static dual-domain site for **Gau GanGa** (`gauganga.org`) and **Shri Shetra Dattdham** (`dattdham.in`). Vercel serves one deploy; hostname-aware content presents each identity and routes visitors to the other site.
+Two production static sites in one repository.
 
-## Deploy
+- `sites/dattdham` → `dattdham.in`
+- `sites/gauganga` → `gauganga.org`
 
-Import this GitHub repository into Vercel. No build command or output directory is required. Attach both custom domains in Vercel; then point their DNS records at Vercel from GoDaddy.
-
-## Local preview
-
-Open `index.html` in a browser, or run `npx serve .`.
+Each root is a separate Vercel project with no build command. Shared assets and the language system live in `sites/shared`.
 Official web presence for Gau GanGa and Shri Shetra Dattdham, Nashik

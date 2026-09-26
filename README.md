@@ -1,9 +1,6 @@
-# Dattdham + Gau GanGa
+# Gau GanGa
 
-Two production static sites in one repository.
+Official static website for Gau GanGa, a Dattdham initiative for compassionate gau-seva, soil health, and community practice.
 
-- `sites/dattdham` → `dattdham.in`
-- `sites/gauganga` → `gauganga.org`
-
-Each root is a separate Vercel project with no build command. Shared assets and the language system live in `sites/shared`.
+Deploy this repository's root on Vercel and attach `gauganga.org`.
 Official web presence for Gau GanGa and Shri Shetra Dattdham, Nashik
